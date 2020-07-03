@@ -1,11 +1,26 @@
 {
   "name": "angular-worktools",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^10.0.2",
-    "@angular/core": "^10.0.2"
+  "version": "0.1.0",
+  "description": "Worktools for Angular",
+  "keywords": [
+    "angular",
+    "worktools"
+  ],
+  "homepage": "https://github.com/dddsuzuki/angular-worktools",
+  "bugs": {
+    "url": "https://github.com/dddsuzuki/angular-worktools/issues"
+  },
+  "license": "MIT",
+  "author": "Daisuke Suzuki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dddsuzuki/angular-worktools.git"
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=9.0.0",
+    "@angular/core": ">=9.0.0"
   }
 }
