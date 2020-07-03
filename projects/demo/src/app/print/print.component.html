@@ -1,0 +1,15 @@
+<h3>PrintService</h3>
+<div>
+  <p>Text:</p>
+  <textarea [(ngModel)]="text" rows="16" cols="80"></textarea>
+</div>
+<div>
+  <p><button type="button" (click)="printText()">Print text</button></p>
+  <p><button type="button" (click)="printTemplate()">Print text with template</button></p>
+</div>
+
+<ng-template #template>
+  <h3>Print Template</h3>
+  <p>Text:</p>
+  <div class="print-text">{{ text }}</div>
+</ng-template>
