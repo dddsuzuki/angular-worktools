@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { AngularWorktoolsComponent } from './angular-worktools.component';
-
-
 
 @NgModule({
-  declarations: [AngularWorktoolsComponent],
-  imports: [
-  ],
-  exports: [AngularWorktoolsComponent]
+  declarations: [],
+  imports: [],
+  exports: [],
 })
-export class AngularWorktoolsModule { }
+export class WtModule { }
