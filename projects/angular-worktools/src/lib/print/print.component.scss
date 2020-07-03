@@ -1,0 +1,25 @@
+wt-print {
+  display: none;
+}
+
+.wt-print-text {
+  white-space: pre-wrap;
+}
+
+@media print {
+  body {
+    background-color: #fff !important;
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+
+    wt-print {
+      display: block;
+      padding: 1.25rem;
+      box-sizing: border-box;
+    }
+
+    & > :not(wt-print) {
+      display: none !important;
+    }
+  }
+}
